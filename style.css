@@ -5,12 +5,17 @@
 }
 
 @font-face{
-    font-family: "chomsky";
-    src: url(./fontss/Chomsky.otf)
+    font-family: "nose";
+    src: url(./fontss/Chomsky-8MOa2.otf)
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "nose";
     font-size: 16px;
     line-height: 16px;
     text-align: start;
