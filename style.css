@@ -1,0 +1,9 @@
+@font-face{
+    font-family: "chomsky";
+    src: url(./fontss/Chomsky.otf)
+}
+
+h1{
+    font-family: "chomsky";
+
+}
