@@ -1,10 +1,10 @@
 @font-face{
-    font-family: "chomsky";
-    src: url(./fontss/Chomsky.otf)
+    font-family: "nose";
+    src: url(./fontss/Chomsky-8MOa2.otf)
 }
 
 h1{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "nose";
     font-size: 16px;
     line-height: 16px;
     text-align: start;
