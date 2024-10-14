@@ -5,30 +5,75 @@
 }
 
 @font-face {
-  font-family: "nose";
-  src: url(./fontss/Chomsky-8MOa2.otf);
+  font-family: "tnyt";
+  src: url(./fontss/OldeEnglish.ttf);
 }
 
-.leng {
+.uph {
+    margin-top: 3px;
   width: 100%;
   height: 159px;
   background-color: chocolate;
   display: grid;
   align-items: center;
   grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
 }
 
 .search {
   grid-column: 2;
-  background-color: aqua;
 }
 
-.bx-search-alt-2{
-    font-size: 20px;
+.bx-search-alt-2 {
+  font-size: 18px;
 }
 
 .lenguage {
-    grid-column: 4/7;
+  grid-column: 4/7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 12px;
+}
+
+.pay {
+    grid-column: 8/9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 11px;
+}
+
+.btnpay0{
+    width: 189px;
+    height: 29px;
+    border-style: none;
+    background-color: #567B95;
+    color: aliceblue;
+    border-radius: 4px;
+}
+.btnpay1{
+    width: 64px;
+    height: 29px;
+    border-style: none;
+    background-color: #567B95;
+    color: aliceblue;
+    border-radius: 4px;
+}
+
+.date{
     background-color: aqua;
-  }
+    grid-column: 2/4;
+    grid-row: 3/5;
+    font-size: 14px;
+}
+
+.name{
+    font-family: 'tnyt';
+    background-color: rgb(183, 153, 248);
+    grid-row: 3/5;
+    grid-column: 4/8;
+    font-size: 75px;
+}
