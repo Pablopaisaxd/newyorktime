@@ -93,6 +93,7 @@
   grid-column: 4/8;
   font-size: 60px;
   padding-bottom: 30px;
+  cursor: pointer;
 }
 
 .net {
