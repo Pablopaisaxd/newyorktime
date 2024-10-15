@@ -64,7 +64,15 @@
   margin-top: 4px;
   border-radius: 4px;
   cursor: pointer;
+  transition: 0.4s ease;
 }
+
+.btnpay0:hover{
+
+  background-color: #425e71;
+  
+}
+
 .btnpay1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 13px;
@@ -76,6 +84,10 @@
   margin-top: 4px;
   border-radius: 4px;
   cursor: pointer;
+  transition: 0.4s ease;
+}
+.btnpay1:hover{
+  background-color: #425e71;
 }
 
 .cursor{
@@ -136,10 +148,51 @@
 }
 
 .sub{
+  display: grid;
   height: 98px;
   width: 80%;
   margin-left: 10%;
   /* background-color: aqua; */
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 3;
+  gap: 2rem;
+
+}
+
+.subn{
+  display: flex;
+  align-items: center;
+  /* background-color: #955656; */
+  font-family: "frank";
+  gap: 0.5rem;
+
+  && a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    gap: 0.5rem;
+    border-right: 1px solid rgb(82, 82, 82);
+  }
+  && a:hover h2{
+    color: #798080;
+  }
+  && a h2{
+    transition: 0.4s ease;
+  }
+}
+.txt{
+  display: flex;
+  flex-direction: column;
+  padding-right: 5px;
+
+  && h2{
+    font-size: 17px;
+    font-weight: bold;
+  }
+  && p{
+    color: rgb(85, 85, 85);
+    font-size: 12px;
+    line-height: 17px;
+  }
 }
