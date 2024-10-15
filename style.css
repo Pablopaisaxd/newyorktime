@@ -41,6 +41,7 @@
   gap: 20px;
   font-size: 12px;
   cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .pay {
@@ -85,6 +86,7 @@
   grid-row: 3/5;
   grid-column: 2/4;
   font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .name {
@@ -98,13 +100,17 @@
 
 .net {
   font-family: "frank";
-  font-size: 12px;
+  font-size: 13px;
   display: flex;
   align-items: center;
   justify-content: center;
   grid-row: 3/5;
-  grid-column: 8/10;
-  gap: 7px;
+  grid-column: 8/9;
+  gap: 8px;
+}
+
+.red{
+  padding-left: 100px;
 }
 
 .head{
@@ -118,4 +124,22 @@
   justify-content: center;
   list-style: none;
   gap: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+}
+
+.line{
+  height: 2px;
+  width: 80%;
+  background-color: black;
+  margin-left: 10%;
+}
+
+.sub{
+  height: 98px;
+  width: 80%;
+  margin-left: 10%;
+  /* background-color: aqua; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 3;
 }
