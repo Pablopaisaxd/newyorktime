@@ -5,8 +5,8 @@
 }
 
 @font-face {
-  font-family: "tnyt";
-  src: url(./fontss/OldeEnglish.ttf);
+  font-family: "chomb";
+  src: url(./fontss/Chomsky-399c.woff);
 }
 
 @font-face {
@@ -30,6 +30,7 @@
 
 .bx-search-alt-2 {
   font-size: 18px;
+  cursor: pointer;
 }
 
 .lenguage {
@@ -39,6 +40,7 @@
   justify-content: center;
   gap: 20px;
   font-size: 12px;
+  cursor: pointer;
 }
 
 .pay {
@@ -51,6 +53,8 @@
 }
 
 .btnpay0 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 13px;
   width: 189px;
   height: 29px;
   border-style: none;
@@ -58,8 +62,11 @@
   color: aliceblue;
   margin-top: 4px;
   border-radius: 4px;
+  cursor: pointer;
 }
 .btnpay1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 13px;
   width: 64px;
   height: 29px;
   border-style: none;
@@ -67,6 +74,11 @@
   color: aliceblue;
   margin-top: 4px;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+.cursor{
+  cursor: pointer;
 }
 
 .date {
@@ -76,10 +88,11 @@
 }
 
 .name {
-  font-family: "tnyt";
+  font-family: "chomb";
   grid-row: 3/5;
   grid-column: 4/8;
-  font-size: 75px;
+  font-size: 60px;
+  padding-bottom: 30px;
 }
 
 .net {
@@ -91,4 +104,17 @@
   grid-row: 3/5;
   grid-column: 8/10;
   gap: 7px;
+}
+
+.head{
+  grid-row: 5/7;
+  grid-column: 1/10;
+}
+
+.uh{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 25px;
 }
