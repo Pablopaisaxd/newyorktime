@@ -196,3 +196,12 @@
     line-height: 17px;
   }
 }
+.ntc{
+  background-color: #567b95;
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  grid-row: auto;
+}
+.ntcs{
+  background-color: #425e71;
+}
