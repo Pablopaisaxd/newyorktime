@@ -93,6 +93,9 @@
 .cursor{
   cursor: pointer;
 }
+.cursor:hover{
+  text-decoration: underline 2px solid;
+}
 
 .date {
   grid-row: 3/5;
@@ -197,11 +200,24 @@
   }
 }
 .ntc{
-  background-color: #567b95;
-  display: grid;
-  grid-template-columns: 1fr 2fr 3fr;
-  grid-row: auto;
+  display: block;
 }
 .ntcs{
   background-color: #425e71;
+
+  && a{
+    text-decoration: none;
+    color: inherit;
+  }
+  && a:hover h2{
+    text-decoration: underline 2px solid;
+  }
+}
+.ntcbox{
+  background-color: #567b95;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: auto;
+  margin:0 153.2px;
+  padding: 29px 0 10px 0;
 }
