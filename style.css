@@ -252,6 +252,10 @@
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: auto  auto;
+  padding-left: 10px;
+}
+.ntcs3{
+  border-bottom:1px solid #dfdfdf ;
 }
 .ntcs31,.ntcs41{
   grid-column: 1/3;
@@ -266,3 +270,17 @@
   grid-row: 2;
 }
 
+.ntcb2{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: auto;
+  padding: 29px 0 10px 0;
+  grid-column: 1/4;
+  && a{
+    text-decoration: none;
+    color: inherit;
+  }
+  && a:hover h2{
+    text-decoration: underline 2px solid;
+  }
+}
