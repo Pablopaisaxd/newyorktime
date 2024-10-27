@@ -235,9 +235,9 @@ body{
     font-size: 13px;
   }
 }
-.ntcs{
+/* .ntcs{
   background-color: #425e71;
-}
+} */
 .ntcs1{
   padding: 0 13px 0 0 ;
   border-right: 1px solid #dfdfdf;
@@ -308,3 +308,29 @@ body{
   }
 }
 
+.ntcs7{
+  font-size: 17px;
+  padding: 10px 0 0 30px;
+
+  && a:hover p{
+    text-decoration: underline 2px solid;
+  }
+}
+
+.ntcs8{
+  font-size: 17px;
+  padding: 10px 0 0 30px;
+
+  && a:hover p{
+    text-decoration: underline 2px solid;
+  }
+}
+
+.ntcs9{
+  font-size: 17px;
+  padding: 10px 0 0 30px;
+
+  && a:hover p{
+    text-decoration: underline 2px solid;
+  }
+}
