@@ -207,15 +207,13 @@ body{
 }
 .ntc{
   display: block;
-
-
 }
 
 .ntcbox{
   /* background-color: #567b95; */
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   margin:0 153.2px;
   padding: 29px 0 10px 0;
   && a{
@@ -292,7 +290,7 @@ body{
 }
 .ntcs5{
   font-size: 17px;
-  padding: 10px 0 0 0;
+  padding: 10px 0 0 30px;
 
   && a:hover p{
     text-decoration: underline 2px solid;
@@ -333,4 +331,23 @@ body{
   && a:hover p{
     text-decoration: underline 2px solid;
   }
+}
+
+.stuffedtext{
+  display: flex;
+  position: absolute;
+  left: 10%;
+  list-style: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.stuffed{
+  display: flex;
+  position: absolute;
+  left: 80%;
+  list-style: none;
+  font-weight: bold;
+  font-size: 13px;
 }
