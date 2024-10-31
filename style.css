@@ -349,5 +349,71 @@ body{
   left: 80%;
   list-style: none;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 11px;
+}
+
+
+.ntc2{
+  display: block;
+}
+
+.ntc2box{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-template-rows: repeat(1, 1fr);
+  margin:0 200.2px;
+  padding: 29px 0 10px 0;
+  && a{
+    text-decoration: none;
+    color: inherit;
+  }
+  && a:hover h2{
+    text-decoration: underline 2px solid;
+  }
+  && h2{
+    padding: 10px 0 10px 0;
+  }
+}
+
+.ntcs10{
+  padding: 0 13px 0 0 ;
+  border-right: 1px solid #dfdfdf;
+
+}
+.ntcs11{
+  padding: 0 13px 0 10px ;
+  border-right: 1px solid #dfdfdf;
+
+}
+.ntcs12{
+  padding: 0 13px 0 10px ;
+  border-right: 1px solid #dfdfdf;
+
+}
+.ntcsunX{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(2,1fr);
+}
+
+.ntcs13, .ntcs14{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: auto  auto;
+  padding-left: 10px;
+}
+.ntcs13{
+  border-bottom:1px solid #dfdfdf ;
+}
+.ntcs31Z,.ntcs41Z{
+  grid-column: 1/3;
+  grid-row: 1;
+}
+.ntcs32Z,.ntcs42Z{
+  grid-column: 1;
+  grid-row: 2;
+}
+.ntcs33Z,.ntcs43Z{
+  grid-column: 2;
+  grid-row: 2;
 }
