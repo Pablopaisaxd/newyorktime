@@ -134,9 +134,24 @@ body{
   padding-left: 100px;
 }
 
+
+
+.header{
+  grid-row: 5/7;
+  grid-column: 1/10;
+}
+
 .head{
   grid-row: 5/7;
   grid-column: 1/10;
+  position: fixed; 
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff; 
+  padding: 10px 0; 
+  top: 11%;
 }
 
 .uh{
@@ -416,4 +431,66 @@ body{
 .ntcs33Z,.ntcs43Z{
   grid-column: 2;
   grid-row: 2;
+}
+
+
+
+
+.ntcbX{
+  display: grid;
+  grid-template-columns: repeat(5,2fr);
+  grid-template-rows: auto;
+  padding: 29px 0 10px 0;
+  grid-column: 1/4;
+  && a{
+    text-decoration: none;
+    color: inherit;
+  }
+  && a:hover h2{
+    text-decoration: underline 2px solid;
+  }
+}
+.ntcsX1{
+  font-size: 17px;
+  padding: 10px 0 0 30px;
+
+  && a:hover p{
+    text-decoration: underline 2px solid;
+  }
+}
+
+.ntcsX2{
+  font-size: 17px;
+  padding: 10px 0 0 30px;
+
+  && a:hover p{
+    text-decoration: underline 2px solid;
+  }
+}
+
+.ntcsX3{
+  font-size: 17px;
+  padding: 10px 0 0 30px;
+
+  && a:hover p{
+    text-decoration: underline 2px solid;
+  }
+}
+
+.ntcsX4{
+  font-size: 17px;
+  padding: 10px 0 0 30px;
+
+  && a:hover p{
+    text-decoration: underline 2px solid;
+  }
+}
+
+.ntcsX5{
+  font-size: 17px;
+  padding: 10px 0 0 30px;
+
+  && a:hover p{
+    text-decoration: underline 2px solid;
+  }
 }
