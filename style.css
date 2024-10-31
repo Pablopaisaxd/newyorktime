@@ -565,3 +565,26 @@ body{
   grid-column: 3;
   grid-row: 2/11;
 }
+
+.footacc{
+  grid-column: 6;
+  grid-row: 2/11;
+}
+
+.nytfoott{
+  font-size: 17px;
+}
+
+.nytfootcen{
+  font-family: 'franklin';
+  font-size: 17px;
+  margin-top: 8px;
+}
+
+.footlogs{
+  display: flex;
+}
+.footlogs2{
+  display: flex;
+  margin-left: 5px;
+}
