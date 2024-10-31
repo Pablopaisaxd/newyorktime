@@ -588,7 +588,33 @@ body{
 .footlogs{
   display: flex;
 }
+
 .footlogs2{
   display: flex;
-  margin-left: 5px;
+  margin-left: 7px;
+}
+
+.footlogs3{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 7px;
+}
+
+.bxs-user{
+font-size: 17px;
+}
+
+.nytfootcen2{
+  font-family: 'franklin';
+  font-size: 17px;
+  padding-left: 7px;
+}
+.nytfootcen3{
+  font-family: 'franklin';
+  font-size: 17px;
+  padding-left: 7px;
+}
+
+.bx-message-square-detail{
+  font-size: 17px;
 }
