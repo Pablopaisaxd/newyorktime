@@ -506,6 +506,11 @@ body{
   display: grid;
   grid-template-columns: repeat(6, 1fr); 
   grid-template-rows: repeat(11, 1fr); 
+
+  && p:hover{
+    text-decoration: underline 1px solid;
+    cursor: pointer;
+  }
 }
 
 .nytfootup{
@@ -568,6 +573,11 @@ body{
 .footacc{
   grid-column: 6;
   grid-row: 2/11;
+
+  && h2:hover{
+    text-decoration: underline 2px solid;
+    cursor: pointer;
+  }
 }
 
 .nytfoott{
