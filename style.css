@@ -22,7 +22,7 @@ body{
 
 @font-face {
   font-family: "franklow";
-  src: url(./fontss/libre-franklin.thin.otf);
+  src: url(./fontss/libre-franklin.extralight.otf);
 }
 
 .uph {
@@ -512,16 +512,16 @@ body{
 .nytfootup{
   grid-column: 1/6;
   grid-row: 1;
-}
-.nytfoott{
-  padding: 10px;
-  font-family: 'chomb';
-}
 
-.nytfootp{
-  font-family: 'frank';
-  padding: 10px;
-  font-size: 10px;
+  &&.nytfoott{
+    padding: 10px;
+    font-family: 'chomb';
+  }
+  &&.nytfootp{
+    font-family: 'frank';
+    padding: 10px;
+    font-size: 10px;
+  }
 }
 
 .home{
@@ -546,9 +546,15 @@ body{
 .foottext{
   font-size: 13px;
   font-family: 'franklow';
+  
 }
 
 .footp{
   margin-bottom: 7px;
   font-weight: 700;
+}
+
+.footarts{
+  grid-column: 2;
+  grid-row: 2/11;
 }
