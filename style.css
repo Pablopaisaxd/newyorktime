@@ -506,6 +506,11 @@ body{
   display: grid;
   grid-template-columns: repeat(6, 1fr); 
   grid-template-rows: repeat(11, 1fr); 
+
+  && p:hover{
+    text-decoration: underline 1px solid;
+    cursor: pointer;
+  }
 }
 
 .nytfootup{
