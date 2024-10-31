@@ -512,16 +512,18 @@ body{
 .nytfootup{
   grid-column: 1/6;
   grid-row: 1;
+}
 
-  &&.nytfoott{
-    padding: 10px;
-    font-family: 'chomb';
-  }
-  &&.nytfootp{
-    font-family: 'frank';
-    padding: 10px;
-    font-size: 10px;
-  }
+.nytfoott{
+  padding: 10px;
+  font-family: 'chomb';
+  font-size: 22px;
+}
+
+.nytfootp{
+  font-family: 'frank';
+  padding: 10px;
+  font-size: 10px;
 }
 
 .home{
@@ -556,5 +558,10 @@ body{
 
 .footarts{
   grid-column: 2;
+  grid-row: 2/11;
+}
+
+.footlife{
+  grid-column: 3;
   grid-row: 2/11;
 }
