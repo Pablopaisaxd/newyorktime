@@ -20,6 +20,11 @@ body{
   src: url(./fontss/franklin-normal-600.ttf);
 }
 
+@font-face {
+  font-family: "franklow";
+  src: url(./fontss/libre-franklin.thin.otf);
+}
+
 .uph {
   margin-top: 3px;
   width: 100%;
@@ -496,7 +501,6 @@ body{
 }
 
 .footer{
-  background-color: aqua;
   height: 560px;
   width: 80%;
   margin-left: 10%;
@@ -526,4 +530,25 @@ body{
   grid-column: 6/12;
   grid-row: 1;
   text-decoration: none;
+}
+
+.footnews{
+  grid-column: 1;
+  grid-row: 2/11;
+}
+
+.footh{
+  font-family: 'frank';
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.foottext{
+  font-size: 13px;
+  font-family: 'franklow';
+}
+
+.footp{
+  margin-bottom: 7px;
+  font-weight: 700;
 }
