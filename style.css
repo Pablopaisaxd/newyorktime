@@ -494,3 +494,36 @@ body{
     text-decoration: underline 2px solid;
   }
 }
+
+.footer{
+  background-color: aqua;
+  height: 560px;
+  width: 80%;
+  margin-left: 10%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); 
+  grid-template-rows: repeat(11, 1fr); 
+}
+
+.nytfootup{
+  grid-column: 1/6;
+  grid-row: 1;
+}
+.nytfoott{
+  padding: 10px;
+  font-family: 'chomb';
+}
+
+.nytfootp{
+  font-family: 'frank';
+  padding: 10px;
+  font-size: 10px;
+}
+
+.home{
+  display: flex;
+  justify-content: end;
+  grid-column: 6/12;
+  grid-row: 1;
+  text-decoration: none;
+}
