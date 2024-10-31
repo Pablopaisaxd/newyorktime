@@ -147,9 +147,8 @@ body{
 }
 
 .head{
-  grid-row: 5/7;
   grid-column: 1/10;
-  position: fixed; 
+  grid-row: 5/7;
   width: 100%; 
   display: flex;
   justify-content: center;
