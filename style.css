@@ -573,6 +573,11 @@ body{
 .footacc{
   grid-column: 6;
   grid-row: 2/11;
+
+  && h2:hover{
+    text-decoration: underline 2px solid;
+    cursor: pointer;
+  }
 }
 
 .nytfoott{
